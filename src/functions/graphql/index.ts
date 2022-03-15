@@ -9,7 +9,6 @@ export default {
         path: "graphql",
         method: "post",
         cors: true,
-        authorizer: "aws_iam",
         request: {
           schemas: {
             "application/json": schema,
@@ -22,7 +21,6 @@ export default {
         path: "graphql",
         method: "get",
         cors: true,
-        authorizer: "aws_iam",
       },
     },
   ],
