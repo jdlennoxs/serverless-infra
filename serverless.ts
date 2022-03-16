@@ -18,7 +18,7 @@ const serverlessConfiguration: AWS = {
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
-      apiKeys: ["${env:LAMBDA_API_KEY}"],
+      apiKeys: ["{env:LAMBDA_API_KEY}"],
       usagePlan: {
         quota: {
           limit: 5000,
