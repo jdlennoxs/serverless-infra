@@ -18,7 +18,7 @@ const serverlessConfiguration: AWS = {
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
-      apiKeys: ["Apollo Server"],
+      apiKeys: ["LAMBDA_API_KEY"],
       usagePlan: {
         quota: {
           limit: 5000,
